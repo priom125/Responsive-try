@@ -1,5 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:"Work Sans", sans-serif;
+    margin: 0 auto;
+}
+
+.light-gray{
+    color: #424242;
+}
+.bg-light{
+    background-color: rgba(255, 144, 14,);
+}
+.navbar{
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1440px;
+    align-items: center;
+    
+}
+.navbar h3{
+    font-size: 3rem;
+    color: #131313;
+}
+.display-flex{
+    display: flex;
+}
+
+.nav-links li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    font-weight: 5000;
+    color: #424242;
+
+}
+
+/* ----------------banner-------------- */
+.banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.content{
+    max-width: 850px;
+    text-align: center;
+}
+.content h2{
+    font-size: 4rem;
+    color: #131313;
+    margin-bottom: 1rem;
+}
+
+.img{
+  width: 100%;
+margin: 0 auto;
+
+}
+
+.btn{
+    width: 180px;
+    height: 64px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #FF900E;
+    font-weight: 600;
+    margin: 2rem 0;
+}
+
+@media screen and (max-width:576px) {
+    .nav-links, .navbar{
+        flex-direction: column;
+    }
+    .navbar h3{
+    font-size: 1rem;
+    color: #131313;
+    margin-right: 60%;
+    margin-top: 5%;
+}
+.content{
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 95%;
+}
+.content h2{
+    font-size: 1.1rem;
+}
+
 }
