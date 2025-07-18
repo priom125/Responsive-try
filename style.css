@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family:"Work Sans", sans-serif;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .light-gray{
@@ -123,6 +124,83 @@ margin: 0 auto;
     color: #424242;
 }
 
+/* ------------------love & enjoy----------------- */
+.love-image{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 3rem;
+    max-width: 1440px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.love{
+    text-align: left;
+     max-width: 586px;
+     width: 100%;
+     margin-right: 5rem;
+}
+.first{
+    width: 100%;
+    margin-top: 2rem;
+    
+}
+.first h2{
+    color: #131313;
+    font-size: 3rem;
+}
+.first p{
+    color: #424242;
+    margin-top: 1.2rem;
+    font-size: 1rem;
+}
+
+.card{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    height: 171px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-right: 6rem;
+    width: 100%;
+}
+.card h5{
+    color: #131313;
+    font-size: 1.1rem;
+    margin: 0.8rem 0;
+    
+}
+.card p{
+    color: #424242;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.img img{
+    width: 100%;
+}
+
+.img h2{
+    width: 320px;
+    height: 100px;
+    background-color: #FF900E;
+    padding: 1rem 3rem;
+    position: absolute;
+    
+    z-index: 1;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    
+}
+
 /* -----------------responsive------------------ */
 @media screen and (max-width:576px) {
     .nav-links, .navbar{
@@ -190,5 +268,30 @@ margin: 0 auto;
     width: 100%;
     margin-top: 1rem;
 }
+/* ------------------love & enjoy----------------- */
+.love-image{
+    flex-direction: column;
+}
+.love{
+    padding: 0 2rem;
+
+}
+
+.img img{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.img h2{
+    font-size: 2rem;
+    width: 200px;
+    height: 64px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    left: 27%;
+}
+
 
 }
